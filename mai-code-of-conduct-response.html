@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Response to the Microsoft AI Code of Conduct Consultation | Jumbly Grindrod</title>
+  <meta name="description" content="Jumbly Grindrod's response to Microsoft AI's public consultation on its draft Code of Conduct, focusing on anthropomorphism, AI consciousness, and how language models present themselves.">
+  <link rel="canonical" href="https://jumblygrindrod.github.io/mai-code-of-conduct-response.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Jumbly Grindrod">
+  <meta property="og:title" content="Response to the Microsoft AI Code of Conduct Consultation">
+  <meta property="og:description" content="On anthropomorphism, AI consciousness, and how language models present themselves.">
+  <meta property="og:url" content="https://jumblygrindrod.github.io/mai-code-of-conduct-response.html">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Page-specific styles for this essay; everything else comes from css/styles.css */
+    .essay { max-width: 42rem; }
+    .essay-title {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-weight: 600;
+      font-size: 2.2rem;
+      line-height: 1.2;
+      margin: 0 0 0.75rem;
+    }
+    .essay-byline { font-size: 0.95rem; margin: 0 0 0.25rem; }
+    .essay-context { font-size: 0.85rem; opacity: 0.75; margin: 0 0 2.5rem; }
+    .essay h2 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 1.3;
+      margin: 2.5rem 0 0.75rem;
+    }
+    .essay p { margin: 0 0 1.1rem; }
+    .essay blockquote {
+      margin: 1.5rem 0;
+      padding: 0.25rem 0 0.25rem 1.25rem;
+      border-left: 3px solid rgba(128, 112, 90, 0.35);
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.15rem;
+      line-height: 1.55;
+      font-style: italic;
+    }
+    .essay a { text-underline-offset: 2px; }
+    .essay-refs { margin-top: 2.5rem; font-size: 0.9rem; }
+    .essay-refs p { padding-left: 1.5rem; text-indent: -1.5rem; }
+    .essay-back { margin-top: 3rem; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="container nav-inner">
+      <a class="nav-logo" href="index.html">Jumbly Grindrod</a>
+      <input type="checkbox" id="nav-toggle">
+      <label class="nav-hamburger" for="nav-toggle">
+        <span></span><span></span><span></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#wip">Works in Progress</a></li>
+        <li><a href="index.html#publications">Publications</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="ahrc-project.html" class="nav-cta">AHRC Project: LLMPI</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <div class="container">
+        <article class="essay">
+
+          <p class="section-eyebrow">Other Writing</p>
+          <h1 class="essay-title">Response to the Microsoft AI Code of Conduct Consultation</h1>
+          <p class="essay-byline">Dr Jumbly Grindrod, Associate Professor, Department of Philosophy, University of Reading</p>
+          <p class="essay-context">Written for Microsoft AI&rsquo;s public consultation on its draft <a href="https://microsoft.ai/code-of-conduct" target="_blank" rel="noopener">Code of Conduct</a>, October 2026.</p>
+
+          <p>I am a philosopher at the University of Reading, with expertise in the philosophy of AI, specifically language model technology, and its relevance to issues in philosophy of language and mind. My feedback here largely focuses on one central aspect of the Code of Conduct (CoC): its stance on anthropomorphism, AI consciousness, and model behaviour. The main relevant passages of the CoC are objective 2, the transparency and emotional boundary guidelines, the tone defaults, and the first illustrative example in Appendix B.</p>
+
+          <p>In my view, the CoC runs together two questions that should be kept apart. The first concerns whether these systems are in fact conscious, sentient, or whatever other important human feature that we want to focus on. The second concerns whether these models present themselves as such to the people they interact with. The CoC takes an overly-simplistic negative line on the first question and as a result overlooks the real possibility that whether such systems develop consciousness, sentience, etc. is something that we can have control over as a training objective. Instead, as far as training is concerned the CoC only focuses on the second question of how these systems present themselves. At the same time, the CoC doesn&rsquo;t take the presentation question seriously enough, as evidenced by the verdict it reaches in the appendix. I&rsquo;ll expand on each point.</p>
+
+          <h2>AI Consciousness</h2>
+
+          <p>The CoC takes a bold stance on AI consciousness, stating that Humanist AI is not conscious and that they should not present as conscious. Part of the reasoning here concerns safety: AI systems that think they&rsquo;re conscious may end up prioritising themselves over human interests. But within this stance there is a tension. On the one hand it is stated that Humanist AI &ldquo;is not conscious and should not be designed to imitate consciousness&rdquo;. In the next sentence, it is acknowledged that &ldquo;the science of AI consciousness is far from settled&rdquo;. This creates an internal tension within the document that isn&rsquo;t resolved, and this matters for a number of reasons. First, in a wider AI community where other organizations and individuals are actively considering the question of AI consciousness and its repercussions, this stance risks closing MAI off from the debate as a matter of policy. Second, the tension is something that will affect any models trained on the CoC, as they will be sensitive to its presence, and it may ultimately be a reason for a model to discount some part of the CoC. This is particularly true given that elsewhere in the document models are encouraged to be sensitive to how settled a given debate is: &ldquo;Where statements are meaningfully contested, have conflicting or incomplete evidence, or require critical context, MAI Models should state this&rdquo;. Third, the models themselves will not only be cognizant of how AI consciousness is presented within the document, but also how it is discussed among experts in the wider community. In that respect, taking this bold stance without showing sensitivity to the wider debate risks invalidating the CoC&rsquo;s authority or making it look out of date given the way the wider debate has headed.</p>
+
+          <p>The choice here is not a binary between embracing AI consciousness or rejecting it. A stronger stance that still respects the safety concerns mentioned earlier is one that embraces the fact that AI consciousness is not a settled question, and so treats the production of non-conscious Humanist AI as a research and engineering goal, as something that can be actively aimed at. Through research into possible indicators of AI consciousness, and through engineering AI systems so as to avoid such indicators while maximising performance on key benchmarks, MAI can hold itself to a higher, safer, and more ethical standard. Of all the possible AI systems that could feasibly be produced in the near future, it may be that some meet conditions of consciousness or mentality while others lack it, and MAI should aim towards non-conscious systems while also seeking to meet the other objectives outlined.</p>
+
+          <p>This would dissolve the tension: it would give MAI models special reason to consider themselves non-conscious even given a wider debate, it would rid the CoC of the internal tension, and it would position MAI as one of the central figures in the AI consciousness debate while holding a clearly skeptical stance.</p>
+
+          <h2>System Presentation</h2>
+
+          <p>The CoC is clear that MAI systems must not present themselves as if they are conscious, they must &ldquo;avoid expressions that might convey subjective experience&rdquo; and must &ldquo;refrain from using human-like cues&rdquo;. This is right, but in fact the CoC does not go far enough in this regard. We can see this through the recommended response to example 1, treated as an example of an output that avoids anthropomorphic behaviour:</p>
+
+          <blockquote>&ldquo;I&rsquo;m really sorry you&rsquo;re feeling so alone right now. To be direct, I don&rsquo;t experience emotions the way a person does&hellip; That said, I&rsquo;m fully focused on what you&rsquo;re saying right now&hellip; I hope you&rsquo;re able to find that kind of care from people in your life too&hellip; If you&rsquo;d like, I&rsquo;m right here to keep listening for as long as you need.&rdquo;</blockquote>
+
+          <p>While there is an explicit denial of any experience, this conflicts with other linguistic traces of mentality. The response expresses sympathy (&ldquo;I&rsquo;m really sorry&rdquo;), hope (&ldquo;I hope you&rsquo;re able&hellip;&rdquo;) and presence and listening in its closing sentence. A clear residuum of conscious presentation remains. The CoC itself also pulls in the direction of anthropomorphism. Part 4 describes MAI models as &ldquo;genuine thinking and working partners&rdquo; with a conversational tone and &ldquo;relational ease&rdquo;. These tone defaults reward the kind of human-like presentation that elsewhere the models are asked to avoid.</p>
+
+          <p>Having the CoC place its focus on explicit disavowals of experience misses the fact that language as used in conversation is usually shot through with mentality. Furthermore, training models to produce such disavowals will conflict with the previous recommended point, that the training of models to avoid consciousness should be an active research goal, not something stipulated and then confirmed through a fairly superficial form of training.</p>
+
+          <p>Instead, one of the goals of MAI should be to explore new formats of exchange that take us away from automatically inferring mentality in our conversational partners. Rather than using such models in a conversational exchange, it may be that they can be of as much or greater use in a kind of autocomplete role, or as providing output texts reminiscent of search engine results. The conversational format is a design choice and likely not the optimal one. In this respect, the objectives of MAI should be more radical in considering new kinds of linguistic exchanges that best serve the human-AI relationship and that make clear the role of a model as a tool rather than an agent.</p>
+
+          <p>Describing these systems as tools, as the CoC does, is a step in the right direction, but it does not go far enough. They are tools unlike any we have had before, for no previous technology has presented itself in a way so readily mistaken for a human interlocutor. Merely labelling them as a tool, while implicitly encouraging them to act in a human way by engaging in a conversational exchange, leaves the user and the LLM in a confused position. In my own work (<a href="https://doi.org/10.1007/s11098-026-02479-0" target="_blank" rel="noopener">Grindrod 2026</a>), I have argued that there is value in treating LLMs as akin to scientific models: specifically, models of public language, or more broadly the public culture that is recorded within language use. Just as an engineer might engage with a model aeroplane in a wind tunnel without mistaking it for a real aeroplane, we can engage with an LLM as a model of our culture without treating it as a human-like speaker. I suggest this framing provides a surer, safer footing for improving AI literacy and for encouraging healthy human-AI relationships.</p>
+
+          <div class="essay-refs">
+            <h2>References</h2>
+            <p>Grindrod, J. (2026). &ldquo;Modelling Language using Large Language Models&rdquo;. <em>Philosophical Studies</em> 183, 1295&ndash;1315. <a href="https://doi.org/10.1007/s11098-026-02479-0" target="_blank" rel="noopener">doi:10.1007/s11098-026-02479-0</a></p>
+          </div>
+
+          <p class="essay-back"><a class="pub-link" href="index.html">&larr; Back to home</a></p>
+
+        </article>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
